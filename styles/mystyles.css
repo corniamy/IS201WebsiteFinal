@@ -1,0 +1,44 @@
+/*my custom styles*/
+
+.navBackground {
+    background-color: darkslategrey;
+}
+
+.navClass {
+    color: cadetblue;
+}
+
+body {
+    background-image: url(../assets/img/Oceanside .JPEG)
+}
+
+.photo {
+    min-height: 300px;
+}
+
+.aboutphoto {
+    max-height: 100px;
+}
+
+
+.about-img {
+    width: 50px;
+    max-height: 40px;
+    float: left;
+
+.about-img2 {
+        width: 80px;
+        max-height: 40px;
+        position: inherit;
+
+about-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+
+.contactinformation {
+    padding: 60px;
+    text-align: center;
+    font-weight: bold;
+}
