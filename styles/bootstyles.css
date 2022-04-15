@@ -1,7 +1,95 @@
 /*Amy Cornish- April 12, 2022*/
 
-.tableaugraph {
-    height: 200px;
+.graph {
+    max-width: 200px;
     position: relative;
-    flex-wrap: wrap;
+}
+
+.background {
+    background-color:floralwhite;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.t {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+
+body {
+    background-color:cornsilk;
+}
+
+.italic {
+    font-style: italic;
+    font-stretch: semi-expanded;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 200px;
+    z-index: 2;
+}
+
+.mainBody {
+    position: relative;
+    left: 250px;
+}
+
+
+.footer {
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    position:fixed;
+    text-align: center;
+}
+
+.titleBorders {
+    padding: 30px;
+    border: indianred dotted;
+    margin: 20px 20px 45px 45px;
+}
+
+#websiteTitle {
+    font-weight: bold;
+    text-align: center;
+}
+
+.centeredParagraph {
+    text-align: center;
+}
+
+a:visited {
+    color:indianred
+}
+
+.common {
+    position: relative;
+}
+
+.mainBody {
+    right: 114px;
+    padding: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.rightalign {
+    text-align: right;
 }

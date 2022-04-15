@@ -1,4 +1,4 @@
-<!--Amy Cornish- April 12, 2022-->
+<!--Amy Cornish- April 14, 2022-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,54 +6,163 @@
     <link href="../styles/bootstyles.css" rel="stylesheet" type="text/css" />
 </head>
 <body id="top">
-    <h2>Tableau Dashboard</h2>
-    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="../index.html">Home</a></li>
-    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="./about.html">About</a></li>
-    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="./tableau.html">Tableau</a></li>
-    <div class='tableauPlaceholder' id='viz1649891142607' style='position: relative' class="tableaugraph">
+    <header>
+    <h2 id="websiteTitle" class="titleBorders t centeredParagraph" style="color:darkred">Tableau Dashboard</h2>
+    <div class="centeredParagraph p">
+        <a href="../index.html">Home</a> | 
+        <a href="./about.html">About</a> |
+        <a href="./tableau.html">Tableau</a>
+        <br>
+        <a href="https://www.tableau.com/trial/tableau-software?utm_campaign=Prospecting-CORE-ALL-ALL-ALL-ALL&utm_medium=Paid+Search&utm_source=Bing&utm_campaign_id=2017049&utm_language=EN&utm_country=USCA&adgroup=&adused=RSAPriority1&d=7013y000000vYhH&&msclkid=55d8db89b2af1730ca42b9d010949fa2&gclid=55d8db89b2af1730ca42b9d010949fa2&gclsrc=3p.ds" class="italic">Visit the Tableau website!</a>
+    </div>
+    </header>
+    <!--Tableau 1: Profit by State-->
+    <div class="mainBody">
+        <div class='tableauPlaceholder common' id='viz1649956767678'>
         <noscript>
             <a href='#'>
-                <img alt='California Sum of Qty Forecast ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaSumofQtyForecast&#47;1_rss.png' style='border: none' class="tableaugraph" />
-            </a>
+                <img alt='Profit by State ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;ProfitbyState&#47;1_rss.png' style='border: none' />
+            </a>    
         </noscript>
-        <object class='tableauViz'  style='display:none;' class="tableaugraph">
+        <object class='tableauViz'  style='display:none;' designwidth="25%">
             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
             <param name='embed_code_version' value='3' /> 
             <param name='site_root' value='' />
-            <param name='name' value='FinalProjectTesting&#47;CaliforniaSumofQtyForecast' />
-            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaSumofQtyForecast&#47;1.png' /> 
+            <param name='name' value='FinalProjectTesting&#47;ProfitbyState' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;ProfitbyState&#47;1.png' /> 
             <param name='animate_transition' value='yes' />
             <param name='display_static_image' value='yes' />
             <param name='display_spinner' value='yes' />
             <param name='display_overlay' value='yes' />
             <param name='display_count' value='yes' />
             <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
         </object>
     </div>                
-    <script type='text/javascript' class="tableaugraph">                    
-    var divElement = document.getElementById('viz1649891142607');                    
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1649956767678');                    
     var vizElement = divElement.getElementsByTagName('object')[0];                    
-    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+    vizElement.style.width='700px' ;vizElement.style.height=(divElement.offsetWidth*0.25)+'px';                    
     var scriptElement = document.createElement('script');                    
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
     vizElement.parentNode.insertBefore(scriptElement, vizElement);                
     </script>
-
-
-
-
-
-
-
-
+    <br>
+    <p class="p">This graph describes Global Superstore's sums of profit by state.</p>
+    <br>
+    <!--Tableau 2: California Sum of Profit-->
+    <div class='tableauPlaceholder common' id='viz1649956638335'>
+        <noscript>
+            <a href='#'>
+                <img alt='California Sum of Profit ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaSumofProfit&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='FinalProjectTesting&#47;CaliforniaSumofProfit' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaSumofProfit&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1649956638335');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    vizElement.style.width='700px';vizElement.style.height=(divElement.offsetWidth*0.25)+'px';                    
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <br>
+    <p class="p">The graph shown above displays California's sum of profit from the year 2011 to 2015.<br> As shown, California's profits are steadily increasing.</p>
+    <br>
+    <!--Tableau 3: California Profit by Product Category-->
+    <div class='tableauPlaceholder common' id='viz1649956357013'>
+        <noscript>
+            <a href='#'>
+                <img alt='California Profit by Product Category ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaProfitbyProductCategory&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+            <param name='name' value='FinalProjectTesting&#47;CaliforniaProfitbyProductCategory' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaProfitbyProductCategory&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1649956357013');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    vizElement.style.width='700px';vizElement.style.height=(divElement.offsetWidth*0.25)+'px';                    
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <br>
+    <p class="p">This chart represents the success of each product category for the state of California.</p>
+    <br>
+    <!--Tableau 4: California Office Supplies Forecast-->
+        <div class='tableauPlaceholder common' id='viz1649957547751'>
+            <noscript>
+                <a href='#'>
+                    <img alt='California Office Supplies Forecast ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaSumofQtyForecast&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='FinalProjectTesting&#47;CaliforniaSumofQtyForecast' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectTesting&#47;CaliforniaSumofQtyForecast&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1649957547751');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='700px';vizElement.style.height=(divElement.offsetWidth*0.25)+'px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    <br>
+    <p class="p">The last graph shows the quantity of sales for the most profitable product category, office supplies,<br>and a forecast for future sales of this category in the state of California.</p>
+    <br>
+    </div>
     <footer>
         <div
-            <p>Created by Amy Cornish © 2022</p>
+            <p class="centeredParagraph italic">Created by Amy Cornish © 2022</p>
+            <p class="centeredParagraph p">Contact @ 801-123-4567</p>
             <a href="#top">
-            <p>Top of Page</p>
+            <p class="centeredParagraph p">Top of Page</p>
         </div>
     </footer> 
 </body>
-
 </html>
